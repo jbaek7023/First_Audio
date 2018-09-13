@@ -1,0 +1,9 @@
+Author: Jae Min Baek (John)
+
+* Overview
+I implemented Play, Stop, Fast Forward, Rewind, Reset features.
+
+In setup()
+- I had a one music end listener. And the listener gracefully check if the audio player time exceeded the music length or if it's the beginning of the tape. 
+
+- setup the music glide for music speed which will by changed based on the user's click.

@@ -1,0 +1,10 @@
+Author: Jae Min Baek (John)
+
+* Techniques for ducking
+- Setup gain values and controlled gain values in listener and buttons(cp5). 
+	- 500 gain value for music
+	- 250 gain value for the voice
+
+* Challenges I faced
+- First time I used Timeout to delay to volume down the music, but it delayed the whole process, so I couldn't switch to the other voice. 
+	- struggled for an hour, then I noticed we can use listener, so I increased the background music in callback.
